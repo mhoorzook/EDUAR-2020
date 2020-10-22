@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363e094bd9cc94a40b799a8fcfb15eb6, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  playerName: cemuka
+  playerMoney: 500
+  playerScore: 0
+  playerStartMoney: 1000
+  trueFalseBaseScore: 30
+  multipleBaseScore: 50
+  purcheseCategoryPrice: 500
+  isCategoriesCreated: 1
+  token: e3bba5c6948d7470b32bea8924e2f7331de914d380fcdbcd2881c3e065190870
+  useToken: 0
+  currentCategory:
+    categoryId: 18
+    categoryName: 'Science: Computers'
+    isPurchesed: 1
+  playerCategoryInventories:
+  - categoryId: 9
+    categoryName: General Knowledge
+    isPurchesed: 1
+  - categoryId: 10
+    categoryName: 'Entertainment: Books'
+    isPurchesed: 0
+  - categoryId: 11
+    categoryName: 'Entertainment: Film'
+    isPurchesed: 0
+  - categoryId: 12
+    categoryName: 'Entertainment: Music'
+    isPurchesed: 0
+  - categoryId: 13
+    categoryName: 'Entertainment: Musicals & Theatres'
+    isPurchesed: 0
+  - categoryId: 14
+    categoryName: 'Entertainment: Television'
+    isPurchesed: 0
+  - categoryId: 15
+    categoryName: 'Entertainment: Video Games'
+    isPurchesed: 0
+  - categoryId: 16
+    categoryName: 'Entertainment: Board Games'
+    isPurchesed: 0
+  - categoryId: 17
+    categoryName: Science & Nature
+    isPurchesed: 0
+  - categoryId: 18
+    categoryName: 'Science: Computers'
+    isPurchesed: 1
+  - categoryId: 19
+    categoryName: 'Science: Mathematics'
+    isPurchesed: 0
+  - categoryId: 20
+    categoryName: Mythology
+    isPurchesed: 0
+  - categoryId: 21
+    categoryName: Sports
+    isPurchesed: 0
+  - categoryId: 22
+    categoryName: Geography
+    isPurchesed: 0
+  - categoryId: 23
+    categoryName: History
+    isPurchesed: 0
+  - categoryId: 24
+    categoryName: Politics
+    isPurchesed: 0
+  - categoryId: 25
+    categoryName: Art
+    isPurchesed: 0
+  - categoryId: 26
+    categoryName: Celebrities
+    isPurchesed: 0
+  - categoryId: 27
+    categoryName: Animals
+    isPurchesed: 0
+  - categoryId: 28
+    categoryName: Vehicles
+    isPurchesed: 0
+  - categoryId: 29
+    categoryName: 'Entertainment: Comics'
+    isPurchesed: 0
+  - categoryId: 30
+    categoryName: 'Science: Gadgets'
+    isPurchesed: 0
+  - categoryId: 31
+    categoryName: 'Entertainment: Japanese Anime & Manga'
+    isPurchesed: 0
+  - categoryId: 32
+    categoryName: 'Entertainment: Cartoon & Animations'
+    isPurchesed: 0

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b4f52683a8a4833a8bbafe4d006c46, type: 3}
+  m_Name: QuizData
+  m_EditorClassIdentifier: 
+  quizzes:
+  - category: 'Science: Computers'
+    type: multiple
+    difficulty: easy
+    question: What does CPU stand for?
+    correct_answer: Central Processing Unit
+    incorrect_answers:
+    - Central Process Unit
+    - Computer Personal Unit
+    - Central Processor Unit
+  - category: 'Science: Computers'
+    type: multiple
+    difficulty: medium
+    question: Which internet company began life as an online bookstore called 'Cadabra'?
+    correct_answer: Amazon
+    incorrect_answers:
+    - eBay
+    - Overstock
+    - Shopify
+  - category: 'Science: Computers'
+    type: multiple
+    difficulty: easy
+    question: HTML is what type of language?
+    correct_answer: Markup Language
+    incorrect_answers:
+    - Macro Language
+    - Programming Language
+    - Scripting Language
+  - category: 'Science: Computers'
+    type: multiple
+    difficulty: medium
+    question: In the server hosting industry IaaS stands for...
+    correct_answer: Infrastructure as a Service
+    incorrect_answers:
+    - Internet as a Service
+    - Internet and a Server
+    - Infrastructure as a Server
+  - category: 'Science: Computers'
+    type: boolean
+    difficulty: medium
+    question: The open source program Redis is a relational database server.
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Science: Computers'
+    type: multiple
+    difficulty: hard
+    question: What port does HTTP run on?
+    correct_answer: 80
+    incorrect_answers:
+    - 53
+    - 443
+    - 23
+  - category: 'Science: Computers'
+    type: multiple
+    difficulty: medium
+    question: In the programming language "Python", which of these statements would
+      display the string "Hello World" correctly?
+    correct_answer: print("Hello World")
+    incorrect_answers:
+    - console.log("Hello World")
+    - echo "Hello World"
+    - printf(&quot;Hello World&quot;)
+  - category: 'Science: Computers'
+    type: boolean
+    difficulty: easy
+    question: The NVidia GTX 1080 gets its name because it can only render at a 1920x1080
+      screen resolution.
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Science: Computers'
+    type: multiple
+    difficulty: hard
+    question: What does the International System of Quantities refer 1024 bytes as?
+    correct_answer: Kibibyte
+    incorrect_answers:
+    - Kylobyte
+    - Kilobyte
+    - Kelobyte
+  - category: 'Science: Computers'
+    type: multiple
+    difficulty: medium
+    question: What was the first Android version specifically optimized for tablets?
+    correct_answer: Honeycomb
+    incorrect_answers:
+    - Eclair
+    - Froyo
+    - Marshmellow
